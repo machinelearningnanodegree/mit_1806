@@ -17,5 +17,5 @@ Resources:
 
 - [YouTube Playlist](https://www.youtube.com/playlist?list=PLH7ep3MlVV1F_yjznbsjGyFGI82a__oNj)
 - [MIT OCW Course](http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
-- [Piazza](https://piazza.com/fall2016/1806)
+- [Piazza](https://piazza.com/udacity_nanodegree/fall2016/1806)
 
