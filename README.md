@@ -12,3 +12,9 @@ Notation:
 - greek letters are scalars i.e. `lambda in \R`
 - lower case letters are vectors
 - capital letters are matrices
+ 
+Resources:
+[YouTube Playlist](https://www.youtube.com/playlist?list=PLH7ep3MlVV1F_yjznbsjGyFGI82a__oNj)
+[MIT OCW Course](http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
+[Piazza](https://piazza.com/fall2016/1806)
+
