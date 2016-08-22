@@ -3,7 +3,7 @@
 ## Goals 
 To explore:
 
-1. linear combination (`alpha*u+beta*v`)
+1. linear combinations (`alpha*u+beta*v+...`) and their spans 
 1. the solutions to `Ax=b` and `Ax=lambda*x`
 1. the practical applications of these
 
