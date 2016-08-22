@@ -19,3 +19,6 @@ Resources:
 - [MIT OCW Course](http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
 - [Piazza](https://piazza.com/udacity_nanodegree/fall2016/1806)
 
+Homework:
+
+1. [Homework 1](https://github.com/machinelearningnanodegree/mit_1806/blob/master/hw1.ipynb)
