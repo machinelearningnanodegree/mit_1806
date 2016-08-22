@@ -1,0 +1,450 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="expandedItems" content="mJjqk2CPZ Q1IWKtRvb QJsZttCDZ QyZMttRwb QJ20utCvZ QkYrYKAD- X1ZK-stCPb m1fKWsK0PZ Q1rFbotCDb my_KZoKCv- XysFWjYRwZ mkAF-iFCDW Q1mlK-stAwZ XkrUFK0vb X1ICjYRwZ QyjRsYCvb mJ9LnK0P- mk-unYRPW QyqdhFRDb Xy0d2F0vZ XyrFnt0PW m1fc3KAvb mJ_9hFAvZ QyesnKAPZ" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <ul id="FoldingText">
+      <li id="QJWeAOFRDb" data-type="Paragraph">
+        <p>Development Environment</p>
+        <ul>
+          <li id="QyHgFY0Db">
+            <p>Docker and Jupyter</p>
+          </li>
+          <li id="XJYRcFRwb">
+            <p>tmpnb.org</p>
+          </li>
+        </ul>
+      </li>
+      <li id="mJjqk2CPZ" data-type="Paragraph">
+        <p>References</p>
+        <ul>
+          <li id="QyAc12Awb" data-type="Paragraph">
+            <p>Axler, Linear Algebra Done Right</p>
+          </li>
+          <li id="QJzeW2Rwb">
+            <p>Kleppner, Kolonkow, Introduction to Mechanics</p>
+          </li>
+          <li id="QJKZZn0w-">
+            <p>Fluent Python</p>
+          </li>
+        </ul>
+      </li>
+      <li id="mJUAdtADb">
+        <p>Introduction</p>
+        <ul>
+          <li id="Q1IWKtRvb">
+            <p>Benchmarking</p>
+            <ul>
+              <li id="m1YMFt0D-">
+                <p>make it run</p>
+              </li>
+              <li id="X1RGKKCvZ">
+                <p>make it right</p>
+              </li>
+              <li id="m1fXYKRDW">
+                <p>make it fast</p>
+              </li>
+            </ul>
+          </li>
+          <li id="QJsZttCDZ">
+            <p>Particle Simulator</p>
+            <ul>
+              <li id="XklpXFYAwZ">
+                <p>class: Particle</p>
+              </li>
+              <li id="Xkz67KKCvb">
+                <p>class: ParticleSimulator</p>
+              </li>
+              <li id="mk46QKFAw-">
+                <p>visualization</p>
+              </li>
+              <li id="my86QYFADZ">
+                <p>embedding animation</p>
+              </li>
+            </ul>
+          </li>
+          <li id="QyZMttRwb">
+            <p>Profiling</p>
+            <ul>
+              <li id="X1WkBYFADW">
+                <p>methods</p>
+              </li>
+              <li id="mkXySKtCwZ">
+                <p>refactoring after results</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li id="QJ20utCvZ">
+        <p>A Pythonic Vector Space</p>
+        <ul>
+          <li id="m1jUdaADb">
+            <p></p>
+          </li>
+          <li id="myxI3mcAPZ">
+            <p>Python provides support for complex numbers as a built-in type. </p>
+            <ul>
+              <li id="m13279Aw-">
+                <p>The function `complex` takes two arguments, a real part and an imaginary part, and returns a complex number:</p>
+              </li>
+              <li id="QyZU2m9RvW">
+                <p>The `cmath` module provides math functions that support complex numbers:</p>
+              </li>
+            </ul>
+          </li>
+          <li id="QkYrYKAD-">
+            <p>Fluent Python</p>
+            <ul>
+              <li id="XyarYFRwb">
+                <p>class: Vector</p>
+                <ul>
+                  <li id="mylt-jYRvW" data-type="CodeBlock">
+                    <p>from math import hypot</p>
+                  </li>
+                  <li id="X1ZK-stCPb" data-type="CodeBlock">
+                    <p>class Vector:</p>
+                    <ul>
+                      <li id="m1fKWsK0PZ" data-type="CodeBlock">
+                        <p>def __init__(self, x=0, y=0):</p>
+                        <ul>
+                          <li id="XyQYbjtADZ">
+                            <p>self.x = x</p>
+                          </li>
+                          <li id="XkVY-sFCD-">
+                            <p>self.y = y</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="Q1rFbotCDb">
+                        <p>def __repr__(self):</p>
+                        <ul>
+                          <li id="mJLtbsF0v-">
+                            <p>return 'Vector(%r, %r)' % (self.x, self.y)</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="my_KZoKCv-">
+                        <p>def __abs__(self):</p>
+                        <ul>
+                          <li id="XyKYWjFAvW">
+                            <p>return hypot(self.x, self.y)</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="XysFWjYRwZ">
+                        <p>def __bool__(self):</p>
+                        <ul>
+                          <li id="XJnFWiKAP-">
+                            <p>return bool(abs(self))</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="mkAF-iFCDW">
+                        <p>def __add__(self, other):</p>
+                        <ul>
+                          <li id="mJ1lK-oYAD-">
+                            <p>x = self.x + other.x</p>
+                          </li>
+                          <li id="QkgeYZsFRwb">
+                            <p>y = self.y + other.y</p>
+                          </li>
+                          <li id="myWxtZiYCPZ">
+                            <p>return Vector(x, y)</p>
+                          </li>
+                        </ul>
+                      </li>
+                      <li id="Q1mlK-stAwZ">
+                        <p>def __mul__(self, scalar):</p>
+                        <ul>
+                          <li id="mJEeYbstCPb">
+                            <p>return Vector(self.x * scalar, self.y * scalar)</p>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li id="XkrUFK0vb">
+            <p>Python Special Methods</p>
+            <ul>
+              <li id="Xk4w4CCwW">
+                <p>http://www.diveintopython3.net/special-method-names.html</p>
+              </li>
+              <li id="myv_it0w-">
+                <p>Special Method Names</p>
+                <ul>
+                  <li id="XJiciK0wZ">
+                    <p>string/bytes representation</p>
+                    <ul>
+                      <li id="XkxUknKCD-">
+                        <p>__repr__,__str__,__format__,__bytes__ </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="QyfoiYCPW">
+                    <p>conversion to number</p>
+                    <ul>
+                      <li id="mkhkht0P-">
+                        <p>__abs__,__bool__,__complex__,__int__,__float__,__hash__,__index__ </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="myDsjYRP-">
+                    <p>emulating collections</p>
+                    <ul>
+                      <li id="Qkk-2Y0vZ">
+                        <p>__len__,__getitem__,__setitem__,__delitem__,__contains__ </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="Q1CijKAwZ">
+                    <p>iteration</p>
+                    <ul>
+                      <li id="XyGb2t0Db">
+                        <p>__iter__, __reversed__, __next__</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="mk4nsKAwW">
+                    <p>emulating callables</p>
+                    <ul>
+                      <li id="X1z81nt0DZ">
+                        <p>__call__</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="XkKnoY0wW">
+                    <p>context management</p>
+                    <ul>
+                      <li id="XkmL12KRvZ">
+                        <p>__enter__,__exit__</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="Q1T3oFRDb">
+                    <p>instance creation and desctruction</p>
+                    <ul>
+                      <li id="QkV8J3tCvW">
+                        <p>__new__,__init__,__del__ </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="QJbCstRvZ">
+                    <p>attribute management</p>
+                    <ul>
+                      <li id="mJq-2K0vW">
+                        <p>__getattr__,__getattribute__,__setattr__,__delattr__,__dir__ </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="X1ICjYRwZ">
+                    <p>attribute descriptors</p>
+                    <ul>
+                      <li id="X1pWnKAvZ">
+                        <p>__get__,__set__,__delete__ </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="QyjRsYCvb">
+                    <p>class services</p>
+                    <ul>
+                      <li id="mkzGnKRwW">
+                        <p>__prepare__,__instancecheck__,__subclasscheck__</p>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li id="Xy7LnK0vW">
+                <p>Special Methods on Operators</p>
+                <ul>
+                  <li id="mJ9LnK0P-">
+                    <p>unary numeric operators</p>
+                    <ul>
+                      <li id="XJg6hnFAvW">
+                        <p>__neg__-,__pos__+,__abs__abs() </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="mk-unYRPW">
+                    <p>rich comparison operators</p>
+                    <ul>
+                      <li id="Qkhf6FCPb">
+                        <p>__lt__&gt;,__le__&lt;=,__eq__==,__ne__!=,__gt__&gt;,__ge__&gt;=</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="QyqdhFRDb">
+                    <p>arithmetic operators</p>
+                    <ul>
+                      <li id="Qy-ThnF0wZ">
+                        <p>__add__+,__sub__-,__mul__*,__truediv__/,__floordiv__//,__mod__ %,__divmod__divmod(),__pow__** orpow(),__round__round()</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="Xy0d2F0vZ">
+                    <p>reversed arithmetic operators</p>
+                    <ul>
+                      <li id="QJOp2KAP-">
+                        <p>__radd__,__rsub__,__rmul__,__rtruediv__,__rfloordiv__, __rmod__, __rdivmod__, __rpow__</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="XyrFnt0PW">
+                    <p>augmented assignment arithmetic operators</p>
+                    <ul>
+                      <li id="QkX62nKRvW">
+                        <p>__iadd__,__isub__,__imul__,__itruediv__,__ifloordiv__,__im od__,__ipow__</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="m1fc3KAvb">
+                    <p>bitwise operators</p>
+                    <ul>
+                      <li id="XkNTn3FCv-">
+                        <p>__invert__~,__lshift__&lt;&lt;,__rshift__&gt;&gt;,__and__&amp;,__or__|, __xor__ ^</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="mJ_9hFAvZ">
+                    <p>reversed bitwise operators</p>
+                    <ul>
+                      <li id="Qyra3hKCDW">
+                        <p>__rlshift__,__rrshift__,__rand__,__rxor__,__ror__ </p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="QyesnKAPZ">
+                    <p>augmented assignment bitwise operators</p>
+                    <ul>
+                      <li id="Xkap3F0w-">
+                        <p>__ilshift__, __irshift__, __iand__, __ixor__, __ior__</p>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li id="Xk5iHcRDZ">
+            <p>Sympy Vectors</p>
+            <ul>
+              <li id="X1l2Bq0DW">
+                <p>https://github.com/sympy/sympy/tree/master/sympy/vector</p>
+              </li>
+            </ul>
+          </li>
+          <li id="my2LFK0PZ">
+            <p>Laws of Vector Spaces</p>
+            <ul>
+              <li id="m1_i19AvZ">
+                <p></p>
+              </li>
+            </ul>
+          </li>
+          <li id="m1WwFKAvZ">
+            <p>Pure Python</p>
+          </li>
+          <li id="XymDFKRwb">
+            <p>Langtangen on Classes</p>
+            <ul>
+              <li id="QkBAusCD-">
+                <p>a set of data together with a set of functions operating on the data</p>
+              </li>
+              <li id="QyTQ5oCvW">
+                <p>the constructor, `init`</p>
+                <ul>
+                  <li id="XJGatjAvZ">
+                    <p>a class usually has a function called a *constructor* for initializing data, `__init__`</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="XkrQ9o0DZ">
+                <p>the `self` variable</p>
+                <ul>
+                  <li id="Q197qoADb">
+                    <p>inside the definition of the function, the argument `self` is a variable holding the new instance to be constructed</p>
+                  </li>
+                  <li id="QkL55j0v-">
+                    <p>any class method must have `self` as first argument</p>
+                  </li>
+                  <li id="myfiqiCv-">
+                    <p>`self` represents an arbitrary instance of the class</p>
+                  </li>
+                  <li id="XJ0i5j0DW">
+                    <p>to access another class method or a class instance, inside class methods, we must prefix with `self`, as in `self.name`, where `name` is the name of the attribute or method</p>
+                  </li>
+                  <li id="mJbyojRwW">
+                    <p>` self` is dropped as argument in calls to class methods</p>
+                  </li>
+                </ul>
+              </li>
+              <li id="XJVDos0w-">
+                <p>A class contains a collection of variables (data) and a collection of methods (functions). </p>
+                <ul>
+                  <li id="QysdioCw-">
+                    <p>The collection of variables is unique to each instance of the class. </p>
+                  </li>
+                  <li id="X15KioCw-">
+                    <p>These variables can be thought of as a dictionary with keys equal to the variable names. </p>
+                  </li>
+                  <li id="QJvjosADW">
+                    <p>On the other hand, the methods are shared among the instances. </p>
+                  </li>
+                  <li id="X1o2joRDZ">
+                    <p>We may think of a method in a class as a standard global function that takes an instance in the form of a dictionary as first argument.</p>
+                  </li>
+                  <li id="XyYWnjAD-">
+                    <p>The class acts as a *namespace* meaning that all functions must be prefixed by the namespace name</p>
+                  </li>
+                  <li id="X1qDnoADZ">
+                    <p>Similarly, modules are also namespaces for the functions and variables in them</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li id="QkuPKtRwb">
+            <p>GSL Vectors</p>
+          </li>
+          <li id="X1iwFFCvW">
+            <p>Langtengen on OO</p>
+          </li>
+          <li id="XygOFKRD-">
+            <p>Think Complexity</p>
+          </li>
+        </ul>
+      </li>
+      <li id="Xkx1FYADW">
+        <p>Working with Vectors Geometrically</p>
+        <ul>
+          <li id="QyMFYtRPW">
+            <p>A Geometric Data Type</p>
+          </li>
+        </ul>
+      </li>
+      <li id="XJF1YF0wZ">
+        <p>Working with Vectors Analytically</p>
+        <ul>
+          <li id="Xk3FFFAwZ">
+            <p>Langtengen on Vectors</p>
+          </li>
+          <li id="X1Z9YtCv-">
+            <p>Langtengen on Discrete Calculus</p>
+          </li>
+          <li id="QkO9Ft0v-">
+            <p>Langtengen on C, C++, Fortran</p>
+          </li>
+          <li id="X1goYtCwZ">
+            <p>Lanaro on Cython</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
