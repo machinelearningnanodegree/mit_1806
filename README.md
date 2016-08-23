@@ -2,7 +2,7 @@
 
 This is the page for the MIT 18.06 Linear Algebra course hosted by the Machine Learning Nanodegree Slack group.
 
-[Click here to enroll](https://goo.gl/forms/9cMsR0GvoPugxlMf2) and go [here](https://docs.google.com/spreadsheets/d/1SEpzd9Cw4OEC6_zz9Y02kXUh3SUXWJD7hUJbHDpNKnc/edit?usp=sharing) to view the list of enrolled alumni.
+[Click here to enroll](https://goo.gl/forms/9cMsR0GvoPugxlMf2) and go [here](https://docs.google.com/spreadsheets/d/1SEpzd9Cw4OEC6_zz9Y02kXUh3SUXWJD7hUJbHDpNKnc/edit?usp=sharing) to view the list of enrolled students
 
 Every "week" (the pacing may change) there will be new topics and homework that you can work through. The current week's content will be available on this GitHub page and past weeks are in the [Wiki.]()
 
