@@ -6,7 +6,11 @@ This is the page for the MIT 18.06 Linear Algebra course hosted by the Machine L
 
 Every "week" (the pacing may change) there will be new topics and homework that you can work through. The current week's content will be available on this GitHub page and past weeks are in the [Wiki.]()
 
-If you want to discuss/ask questions either on the course content or the course itself you can drop a message in the #mit_1806 channel in the MLND Slack group, or read the [GitHub contributing guidelines in the Wiki]().
+### Discussion/Questions
+
+If you want to discuss or ask any questions, you can either drop a message in the #mit_1806 channel in the MLND Slack Group, or open an GitHub "issue" at the top of the page (we treat these like forum threads). Please label your thread with the correct tags so that people can find what they are looking for.
+
+Don't be shy to ask any questions, we don't bite and the chances are that someone else is wondering about the same thing! :)
 
 ## Course Goals
 
