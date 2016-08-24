@@ -29,6 +29,7 @@ Don't be shy to ask any questions, we don't bite and the chances are that someon
 **Resources:**
 
 - [YouTube Playlist](https://www.youtube.com/playlist?list=PLH7ep3MlVV1F_yjznbsjGyFGI82a__oNj)
+- [Download All The Videos](http://archive.org/compress/MIT18.06S05_MP4/formats=MPEG4&file=/MIT18.06S05_MP4.zip)
 - [MIT OCW Course](http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
 - [Piazza](https://piazza.com/udacity_nanodegree/fall2016/1806) (not used)
 
