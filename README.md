@@ -32,6 +32,12 @@ Don't be shy to ask any questions, we don't bite and the chances are that someon
 - [Textbook] (http://facultymember.iaukhsh.ac.ir/images/Uploaded_files/[Strang_G.]_Linear_algebra_and_its_applications(4)[5881001].PDF)
 - [Another Student's work through the course](https://github.com/juanklopper/MIT_OCW_Linear_Algebra_18_06)
 
+## Homework
+Homework is provided by @joshuacook. It is unique to this course!
+Two options to get it: fork this repo and do it locally.  Please submit a pull request to upload your finished version when you are done. (Make sure to rename the file!)
+OR you can do it online with a [shared jupyternotebook](http://joshuacook.me:8890/tree)
+
+
 ## Homework 1 (due 9/5/2016)
 
 Learning goals: 
